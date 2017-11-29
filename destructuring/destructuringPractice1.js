@@ -9,12 +9,15 @@ let yessa = {
 
 //Get yessa's name and favoritePhrase
 
-
-
+var {name,favoritePhrase}= yessa;
+name;
+favoritePhrase;
 //Instead of person, pick off the parameters: name, planet, skills
 //on the first line of the function
 function logPerson(person){
-
+    var {name,planet,skills}= person;
+    name;
+    planet;
 }
 
 logPerson(yessa)
@@ -22,7 +25,10 @@ logPerson(yessa)
 //pick off the parameters: name, friends, race
 //instead of the parameter
 function friendPerson(person){
-
+    var {name,friends,race}=person;
+    name;
+    friends;
+    race;
 }
 
-logPerson(yessa)
+friendPerson(yessa)

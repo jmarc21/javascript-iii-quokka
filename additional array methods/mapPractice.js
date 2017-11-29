@@ -2,7 +2,13 @@ var answers = ["yes", "no", "yes", "no", "no", "no"]
 
 //map over answers
 //change yes into no and no into yes
-
+var opposites = answers.map(function(item){
+    if (item==="yes"){
+        return "no"
+    }
+    return "yes";
+})
+opposites;
 //DESIRED RESULT = ["no", "yes", "no", "yes", "yes", "yes"]
 
 
